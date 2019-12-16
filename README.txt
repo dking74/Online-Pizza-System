@@ -1,3 +1,25 @@
+The project described here demonstrates the functionality of an Online Pizza System.
+There are 3 sub-systems that encompass the full system:
+    1. Customer Application
+    2. Employee Application
+    3. Pizza Store Database
+
+The Customer application is responsible for interaction with the customers,
+and allows the customers to make orders and view order order_status.
+
+The Employee application is responsible for managing the orders that are placed
+by the customers. With this application, admins can also add employees, add orders,
+add items, etc. Basically, every element of the database can be manipulated through
+this application.
+
+The Pizza Store database is responsible for keeping all data in the data Store
+so that both parties can manipulate and enter data as appropriate.
+
+THE DATABASE MUST BE CREATED WITH DATABASE_GENERATOR.PY BEFORE THE APPLICATION CAN BE RUN!
+
+There should only be one external dependency to run the application.
+This dependency is: sqlalchemy. Please install before trying to run.
+
 This file is just a basic README to identify some
 common things in the project. IT IS NOT CONCLUSIVE.
 
@@ -27,8 +49,4 @@ viewers.py - This is kind of a sloppy file, but this provides basic viewing opti
 
 The rest of the modules are pretty self-explanatory on what they accomplish.
 
-I hope this is sufficient...If given more time, this project would
-be much better. However, for demo, I think this gets the point across.
-
-I will probably work on this a little more moving forward because I became
-really interested in it, but just didn't have enough time to implement further.
+This project is in development phase.
